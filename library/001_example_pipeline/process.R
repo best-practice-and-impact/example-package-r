@@ -6,7 +6,7 @@
 
 # NOTE: When referencing functions from any package except base in pipeline scripts and functions, always
 # include an explicit library reference in the call
-# (e.g. use dplyr::filter, not just filter and use examplerpackagte::add_two_numbers,not just add_two_numbers)
+# (e.g. use dplyr::filter, not just filter and use examplerpackage::add_two_numbers,not just add_two_numbers)
 
 # Load required packages
 
