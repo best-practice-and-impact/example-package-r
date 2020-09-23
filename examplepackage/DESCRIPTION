@@ -7,7 +7,10 @@ Authors@R: c(person(given = "Jane", family = "Doe", email = "jane.doe@ons.gov.uk
                 role = c("aut"))
             )
 Description: A one paragraph description of what the package does.
-Depends: R (>= 3.6.1)
+Depends: R (>= 3.6.0)
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 7.1.0
+Encoding: UTF-8
+Suggests:
+    testthat (>= 2.1.0)
