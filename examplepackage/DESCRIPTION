@@ -1,0 +1,13 @@
+Package: examplerpackage
+Title: What The Package Does (one line, title case)
+Version: 0.1
+Authors@R: c(person(given = "Jane", family = "Doe", email = "jane.doe@ons.gov.uk",
+                role = c("aut","cre")),
+             person(given = "John", family = "Roe", email = "john.roe@ons.gov.uk",
+                role = c("aut"))
+            )
+Description: A one paragraph description of what the package does.
+Depends: R (>= 3.6.1)
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 7.1.0

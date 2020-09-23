@@ -21,7 +21,7 @@ The sections below are standard wording that we recommend you include in the rep
 
 * /examplepackage - An R Package that contains generic tools and functions used by the pipelines in /library, but is not run directly
 * /library - contains a folder for each pipeline which contains all the scripts needed to run and QA that pipeline.
-* examplepackage.version.tar.g - An installable version of the package. Read the documentation for more details.
+* examplepackage.version.tar.g - An installable version of the R package. Read the documentation for more details.
 * example-package-r.Rproj - RStudio project file. Open this in RStudio to start using the code base.
 * LICENSE.md - licensing information for code redistribution.  [The Government Digital Service recommend using the MIT license](https://gds-way.cloudapps.digital/manuals/licensing.html#use-mit) for UK government coding projects.
 
