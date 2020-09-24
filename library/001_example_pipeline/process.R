@@ -6,7 +6,7 @@
 
 # NOTE: When referencing functions from any package except base in pipeline scripts and functions, always
 # include an explicit library reference in the call
-# (e.g. use dplyr::filter, not just filter and use examplerpackage::add_two_numbers,not just add_two_numbers)
+# (e.g. use dplyr::filter, not just filter and use examplerpackage::sum_of_inputs,not just sum_of_inputs)
 
 # Load required packages
 
@@ -16,5 +16,6 @@ library(examplerpackage)
 
 
 
-x <- examplerpackage::add_two_numbers(input1 = 13,
-                                      input2 = 18)
+x <- examplerpackage::sum_of_inputs(input1 = c(13,15),
+                                      input2 = 18.57)
+print(x)
